@@ -1,0 +1,77 @@
+<div class="testimonial_container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- ====================================TESTIMONAIL 1================ -->
+                    <div class="testimonial-content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="Assets/images/taylor-deas-melesh-0WTtJ0bhJcw-unsplash.jpg" alt="" class="testimonial_img">
+                            
+                                <div>
+                                    <h3 class="testimonial_name">Tayor Deas</h3>
+                                    <span class="testimonial-client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            
+                            </div>
+                        </div>
+                        <p class="testimonial_description">NICE DEVELOPER WITH TOP-NOTCH IN-DEMAND SKILLS</p>
+                    </div>
+
+                        <!-- ====================================TESTIMONAIL 2================ -->
+                    <div class="testimonial-content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="Assets/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="" class="testimonial_img">
+                            
+                                <div>
+                                    <h3 class="testimonial_name">Christoper Campbell</h3>
+                                    <span class="testimonial-client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            
+                            </div>
+                        </div>
+                        <p class="testimonial_description">FRIENDLY PERSON WITH REBOOST TIME MANAGEMENT SKILL</p>
+                    </div>
+
+                        <!-- ====================================TESTIMONAIL 3================ -->
+                    <div class="testimonial-content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="Assets/images/mika-W0i1N6FdCWA-unsplash.jpg" alt="" class="testimonial_img">
+                            
+                                <div>
+                                    <h3 class="testimonial_name">Mika Dean</h3>
+                                    <span class="testimonial-client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            
+                            </div>
+                        </div>
+                        <p class="testimonial_description">lorem ipsum lorddsdhuuiafujdhxchbvuidhbfvuidhibivjbgfd</p>
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+            </div>

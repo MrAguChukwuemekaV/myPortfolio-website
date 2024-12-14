@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECTS</title>
+    <link rel="stylesheet" href="Main.css\miniprojects.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  </head>
+
+  <body>
+       <section class="navbar">
+           <div class="name">VICTOR'S PORTFOLIO WEBSITE</div>
+           <div class="link">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+            </ul>
+           </div>
+
+       </section>
+
+      <section class="project-1">
+      <div class="first-container">
+        <header>PROJECT 1</header>
+        <h3><em>INCREMENT AND DECREMENT</em></h3>
+        <div class="card">
+          <button onclick="decrement();">-</button>
+          <h2 id="root"></h2>
+          <button onclick="increment();">+</button>
+        </div>
+      </div>
+      </section>
+    
+      <section class="project-2">
+        <div class="second-container">
+          <header>PROJECT-2</header>
+          <h5><em> DIGITAL-CLOCK</em></h5>
+          <div class="clock-pad">
+            <p id="myClock" onload="showTime();"></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-3">
+  <div class="Third-container">
+    <div class="innerbox" id="card">
+      <div class="card-front">
+        <header>PROJECT 3</header>
+        <p>Click the button below to use Calculator</p>
+        <br /><br />
+        <button class="btn-1" type="button" onclick="openRegister()">
+          >
+        </button>
+      </div>
+      <div class="card-back">
+        <div class="Calculator-grid">
+          <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+          </div>
+
+          <button data-all-clear class="span-two">AC</button>
+          <button data-delete>DEL</button>
+          <button data-operation>%</button>
+          <button data-number>1</button>
+          <button data-number>2</button>
+          <button data-number>3</button>
+          <button data-operation>*</button>
+          <button data-number>4</button>
+          <button data-number>5</button>
+          <button data-number>6</button>
+          <button data-operation>+</button>
+          <button data-number>7</button>
+          <button data-number>8</button>
+          <button data-number>9</button>
+          <button data-operation>-</button>
+          <button data-number>.</button>
+          <button data-number>0</button>
+          <button data-equals class="span-two">=</button><br />
+          <button type="button" class="login-btn" onclick="openLogin()">
+            <
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+      </section>
+
+      <section class="project-4" style="bottom: 0;">
+          <div id="gradient" class="Fourth-container">
+            <header>Background Generator</header>
+            <div>
+              <input id="color1" type="color" name="color1" value="#00ff00" />
+              <input id="color2" type="color" name="color2" value="#ff0000" />
+            </div>
+
+            <h1></h1>
+          </div>
+      </section>
+  
+      <section class="project-5">
+        <div class="login-box" style="background-color: red; width: 25vw; height: 55vh; border-radius: 10px;">
+         
+          <h1 style="text-align: center; font-size: 500;">LOGIN MODEL</h1>
+       
+
+      <div class="box">
+          
+          <!-- <div class="inputBox">
+              <input type="text" placeholder="Username" id="username" onkeyup="checkPassword(this.value)">
+              <span id="toggleBtn"></span>
+          </div> -->
+
+          <div class="inputBox" style="margin:auto">
+              <input type="password" placeholder="Password" id="pswd" onkeyup="checkPassword(this.value)">
+              <span id="toggleBtn"></span>
+          </div>
+  
+          <div class="validation">
+              <ul>
+                  <li id="lower">At least one lowercase character</li>
+                  <li id="upper">At least one uppercase character</li>
+                  <li id="number">At least one Number </li>
+                  <li id="special">At least one special character</li>
+                  <li id="length">At least 8 character</li>
+                  
+              </ul>
+          </div>
+  
+      </div>
+        </div>
+      </section>
+      <script src="js\miniprojects.js" defer></script>
+  </body>
+</html>
